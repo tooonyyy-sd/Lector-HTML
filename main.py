@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.title("Visualizador HTML desde portapapeles")
+st.title("Visualizador HTML")
 
 # Área donde el usuario pega el contenido HTML copiado
 html_content = st.text_area('Pega aqui el contenido hml', '''
